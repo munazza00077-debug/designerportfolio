@@ -226,21 +226,17 @@ export const SkillsSection: React.FC<SkillsSectionProps> = ({
                             <h4 className="font-bold text-[15px] text-[#111318] truncate">
                               {skill.name}
                             </h4>
+                            <span className="text-xs font-semibold text-[#FF6900]">
+  {['video', 'design'].includes(skill.category?.toLowerCase() || '')
+    ? 'Advanced'
+    : 'Intermediate'}
+</span>
                            </div>
                           <span className="text-[12px] text-[#717684] block font-medium truncate">
                             {skill.focus || skill.category}
                           </span>
                         </div>
                       </div>
-
-                      {/* Progress Bar */}
-                      <div className="w-full h-1.5 bg-[#F5F3EF] rounded-full overflow-hidden mt-2 mb-2">
-                        <div
-                          className="h-full bg-[#FF6900] rounded-full transition-all duration-500"
-                          style={{ width: `${skill.proficiency}%` }}
-                        />
-                      </div>
-
                       {skill.details && isExpanded && (
                         <p className="text-[12px] text-[#5A606D] mt-2.5 leading-relaxed pt-2.5 border-t border-[#F0ECE5]">
                           {skill.details}
