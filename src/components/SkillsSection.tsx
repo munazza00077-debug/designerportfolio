@@ -62,7 +62,11 @@ export const SkillsSection: React.FC<SkillsSectionProps> = ({
 
         {/* Dynamic Competency Cards Grid: Clean Editorial Styling (No Clutter Icons) */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
-          {activeExpertiseList.map((card, idx) => {
+        
+{[...activeExpertiseList]
+  .sort((a, b) => (Number(a.sort_order) || 99) - (Number(b.sort_order) || 99))
+  .map((card, idx) => {
+
             const isAiFeatured = card.category === 'ai' || idx === activeExpertiseList.length - 1;
             const cardNum = card.num || (idx < 9 ? `0${idx + 1}` : `${idx + 1}`);
 
@@ -222,10 +226,7 @@ export const SkillsSection: React.FC<SkillsSectionProps> = ({
                             <h4 className="font-bold text-[15px] text-[#111318] truncate">
                               {skill.name}
                             </h4>
-                            <span className="font-mono text-xs font-bold text-[#FF6900] shrink-0">
-                              {skill.proficiency}%
-                            </span>
-                          </div>
+                           </div>
                           <span className="text-[12px] text-[#717684] block font-medium truncate">
                             {skill.focus || skill.category}
                           </span>
