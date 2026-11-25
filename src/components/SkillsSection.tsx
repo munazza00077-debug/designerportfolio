@@ -36,6 +36,30 @@ export const SkillsSection: React.FC<SkillsSectionProps> = ({
     if (selectedFilter === 'all') return true;
     return s.category === selectedFilter;
   });
+  
+const softwareGroups = [
+  {
+    title: '01 — Video Editing',
+    keywords: ['premiere', 'capcut'],
+  },
+  {
+    title: '02 — Graphic Design',
+    keywords: ['canva', 'photoshop', 'illustrator'],
+  },
+  {
+    title: '03 — MS Office',
+    keywords: ['word', 'excel', 'powerpoint'],
+  },
+  {
+    title: '04 — AI Tools',
+    keywords: ['chatgpt'],
+  },
+  {
+    title: '05 — IT & Hardware',
+    keywords: ['windows', 'hardware'],
+  },
+];
+
 
   return (
     <section className="relative z-10 w-full py-16 lg:py-24 bg-[#F5F3EF]" id="skills">
@@ -203,7 +227,24 @@ export const SkillsSection: React.FC<SkillsSectionProps> = ({
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-              {filteredDynamicSkills.map((skill) => {
+  
+{softwareGroups.map((group) => {
+  const groupSkills = filteredDynamicSkills.filter((skill) =>
+    group.keywords.some((keyword) =>
+      skill.name.toLowerCase().includes(keyword)
+    )
+  );
+
+  if (groupSkills.length === 0) return null;
+
+  return (
+    <div key={group.title} className="col-span-full">
+      <h4 className="text-xl font-bold text-[#111318] mb-4">
+        {group.title}
+      </h4>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {groupSkills.map((skill) => {
+
                 const isExpanded = expandedSkillId === String(skill.id);
                 return (
                   <div
@@ -265,6 +306,12 @@ export const SkillsSection: React.FC<SkillsSectionProps> = ({
                   </div>
                 );
               })}
+        
+</div>
+</div>
+);
+})}
+
             </div>
           </div>
         )}
