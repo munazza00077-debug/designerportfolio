@@ -1399,16 +1399,15 @@ export const AdminPortal: React.FC<AdminPortalProps> = ({
                               {s.category}
                             </span>
                           </div>
-                          <span className="font-mono text-xs font-bold text-rose-700 shrink-0">{s.proficiency}%</span>
+                       
+<span className="text-xs font-semibold text-rose-700 shrink-0">
+  {['video', 'design'].includes(s.category?.toLowerCase() || '')
+    ? 'Advanced'
+    : 'Intermediate'}
+</span>
                         </div>
 
-                        <div className="h-2 w-full rounded-full bg-rose-100 overflow-hidden">
-                          <div
-                            className="h-full bg-gradient-to-r from-rose-600 to-pink-500 rounded-full"
-                            style={{ width: `${s.proficiency}%` }}
-                          />
-                        </div>
-
+                      
                         <p className="text-xs font-semibold text-rose-700">{s.focus || 'Core Qualification'}</p>
                         {s.details && (
                           <p className="text-xs text-[#5C3A4D] leading-relaxed bg-[#FFF9FB] border border-rose-100 rounded-xl p-2.5">
