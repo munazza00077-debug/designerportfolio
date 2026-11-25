@@ -74,6 +74,30 @@ interface AdminPortalProps {
   onDeleteTestimonial: (id: string | number) => Promise<void>;
 }
 
+
+const softwareGroups = [
+  {
+    title: '01 — Video Editing',
+    keywords: ['premiere', 'capcut'],
+  },
+  {
+    title: '02 — Graphic Design',
+    keywords: ['canva', 'photoshop', 'illustrator'],
+  },
+  {
+    title: '03 — MS Office',
+    keywords: ['word', 'excel', 'powerpoint'],
+  },
+  {
+    title: '04 — AI Tools',
+    keywords: ['chatgpt'],
+  },
+  {
+    title: '05 — IT & Hardware',
+    keywords: ['windows', 'hardware'],
+  },
+];
+
 export const AdminPortal: React.FC<AdminPortalProps> = ({
   isOpen,
   onClose,
@@ -1380,7 +1404,24 @@ export const AdminPortal: React.FC<AdminPortalProps> = ({
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {skills.map((s) => (
+               
+{softwareGroups.map((group) => {
+  const groupSkills = skills.filter((s) =>
+    group.keywords.some((keyword) =>
+      s.name.toLowerCase().includes(keyword)
+    )
+  );
+
+  if (groupSkills.length === 0) return null;
+
+  return (
+    <div key={group.title} className="col-span-full">
+      <h3 className="text-lg font-bold text-[#2B1421] mb-4">
+        {group.title}
+      </h3>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {groupSkills.map((s) => (
+
                   <div
                     key={s.id}
                     data-admin-skill={s.name}
@@ -1437,6 +1478,11 @@ export const AdminPortal: React.FC<AdminPortalProps> = ({
                 ))}
               </div>
             </div>
+    
+);
+})}
+</div>
+
           )}
 
           {/* SCREEN 5: TESTIMONIALS */}
