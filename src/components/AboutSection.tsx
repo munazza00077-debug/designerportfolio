@@ -108,8 +108,9 @@ I am Munazza Irfan, a B.A student, with practical skills in video editing, graph
 
                 </p>
                 <p>
-                  I have practical experience through practice projects, academic assignments, and
-                  helping classmates with basic computer-related tasks.
+                  
+I have hands-on experience creating promotional videos, social media reels, branded graphics, and digital content. I focus on delivering visually engaging work that meets client requirements and communicates their message effectively.
+
                 </p>
                 <p>
                   I am eager to apply my skills in a professional working environment, gain
