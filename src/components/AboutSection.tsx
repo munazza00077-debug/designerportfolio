@@ -143,11 +143,9 @@ I am Munazza Irfan, a B.A student, with practical skills in video editing, graph
                     Current Academic Track
                   </span>
                   <span className="text-[14px] text-[#111318] font-semibold mt-0.5">
-                    BS English (3rd Semester)
+                   B.A
                   </span>
-                  <span className="text-[12px] text-[#5A606D]">
-                    KMK Post Graduate College, Pallandri
-                  </span>
+                 
                 </div>
 
                 <div className="flex flex-col p-3.5 rounded-xl bg-[#FAF8F5] border border-[#EAE6DF]">
