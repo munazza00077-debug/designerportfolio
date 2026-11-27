@@ -381,9 +381,9 @@ export const ResumeSection: React.FC<ResumeSectionProps> = ({ onOpenInquiry, ski
                 </h4>
                 <ul className="space-y-2">
                   <li>
-                    <strong className="text-[#111318]">Bachelor of Science in English (Ongoing, 3rd Semester)</strong>
-                    <br />
-                    Khan Muhammad Khan Post Graduate College, Pallandri
+                  
+<strong className="text-[#111318]">B.A</strong>
+
                   </li>
                   <li>
                     <strong className="text-[#111318]">Comprehensive 6-Month IT Certification (Completed)</strong>
