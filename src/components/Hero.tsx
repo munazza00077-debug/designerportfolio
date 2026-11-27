@@ -225,7 +225,9 @@ Professional Video Editor &amp;{' '}
 <span className="italic font-normal font-editorial text-[#111318]">
   Graphic Designer
 </span>
-<span className="block text-[#FF6900] underline decoration-[#FF6900]/30 underline-offset-4 sm:underline-offset-8 mt-1">
+
+<span className="block text-[22px] sm:text-[34px] lg:text-[44px] text-[#FF6900] underline decoration-[#FF6900]/30 underline-offset-4 sm:underline-offset-8 mt-1 leading-tight">
+
   Creative Content That Makes an Impact.
 </span>
 
