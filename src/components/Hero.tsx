@@ -220,29 +220,31 @@ export const Hero: React.FC<HeroProps> = ({ stats, skills = [], onViewCV }) => {
           {/* Headline Matching Stitch Reference */}
           <div className="flex flex-col items-center text-center">
             <h1 className="font-extrabold text-[32px] sm:text-[50px] lg:text-[66px] leading-[1.1] sm:leading-[1.08] tracking-[-0.03em] text-[#111318]">
-              Professional IT &amp;{' '}
-              <span className="italic font-normal font-editorial text-[#111318]">
-                Office Skills
-              </span>
-              <span className="block text-[#FF6900] underline decoration-[#FF6900]/30 underline-offset-4 sm:underline-offset-8 mt-1">
-                in one place.
-              </span>
+           
+Professional Video Editor &amp;{' '}
+<span className="italic font-normal font-editorial text-[#111318]">
+  Graphic Designer
+</span>
+<span className="block text-[#FF6900] underline decoration-[#FF6900]/30 underline-offset-4 sm:underline-offset-8 mt-1">
+  Creative Content That Makes an Impact.
+</span>
+
             </h1>
 
             <p className="text-[15px] sm:text-[19px] font-semibold text-[#111318] mt-3 sm:mt-4 flex flex-wrap items-center justify-center gap-1.5 sm:gap-2">
               <span>Munazza Irfan</span>
               <span className="text-[#D0CAC0]">•</span>
-              <span className="text-[#FF6900]">Graphic Designer</span>
+              <span className="text-[#FF6900]">Video Editor</span>
               <span className="text-[#D0CAC0]">•</span>
-              <span className="text-[#5A606D]">Video Editor</span>
+              <span className="text-[#5A606D]">Graphic Designer</span>
             </p>
           </div>
 
           {/* Introduction Copy */}
           <p className="text-[14px] sm:text-[17px] leading-relaxed text-[#5A606D] max-w-2xl font-normal mx-auto px-2">
-            Motivated and detail-oriented professional with comprehensive training in MS Office,
-            graphic design, video editing, and IT support. Passionate about creating digital
-            content, solving technical problems, and learning new technologies.
+          
+I specialize in professional video editing and graphic design, creating engaging reels, short-form videos, promotional content, and branded visuals for businesses and social media. My focus is on clean editing, compelling storytelling, and creative designs that help brands communicate effectively and attract their audience.
+
           </p>
 
           {/* Action CTA Group */}
