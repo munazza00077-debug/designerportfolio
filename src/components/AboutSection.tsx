@@ -58,7 +58,9 @@ export const AboutSection: React.FC = () => {
                     <div className="inline-flex items-center gap-1.5 self-start px-3 py-1 rounded-full bg-white/95 backdrop-blur-md mb-2 shadow-sm">
                       <span className="w-2 h-2 rounded-full bg-[#10B981] shrink-0" />
                       <span className="font-mono text-[11px] font-semibold text-[#111318]">
-                        Verified IT Graduate
+                       
+Video Editor & Designer
+
                       </span>
                     </div>
                     <h3 className="text-white text-[22px] font-bold tracking-tight">
