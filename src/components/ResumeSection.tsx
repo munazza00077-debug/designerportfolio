@@ -92,16 +92,14 @@ export const ResumeSection: React.FC<ResumeSectionProps> = ({ onOpenInquiry, ski
                     <span className="font-mono text-[11px] font-bold text-[#FF6900] uppercase">
                       Current Academic Focus
                     </span>
-                    <span className="px-3 py-1 rounded-full bg-[#FFF2E5] font-mono text-[11px] font-bold text-[#FF6900]">
-                      3rd Semester Ongoing
-                    </span>
+                    
                   </div>
-                  <h3 className="text-[22px] font-extrabold text-[#111318]">BS in English</h3>
-                  <p className="text-[15px] font-semibold text-[#5A606D] mt-0.5">
-                    Khan Muhammad Khan Post Graduate College, Pallandri
-                  </p>
+                  <h3 className="text-[22px] font-extrabold text-[#111318]">B.A</h3>
+                
                   <p className="text-[15px] text-[#5A606D] mt-3 leading-relaxed">
-                    Developing rigorous textual analysis, formal English rhetoric, academic research writing, and professional interpersonal communication capabilities.
+                    
+Building a strong academic foundation with a focus on communication, critical thinking, analytical skills, and continuous professional development.
+
                   </p>
                 </div>
               </div>
