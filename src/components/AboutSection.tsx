@@ -65,7 +65,9 @@ export const AboutSection: React.FC = () => {
                       Munazza Irfan
                     </h3>
                     <p className="text-white/85 text-[13px]">
-                      Rawalpindi • BS English (Semester 3)
+                     
+Rawalpindi • B.A
+
                     </p>
                   </div>
                 </div>
@@ -99,10 +101,9 @@ export const AboutSection: React.FC = () => {
             <div className="flex flex-col gap-6 p-7 sm:p-8 rounded-[28px] bg-white border border-[#E8E5DF] shadow-[0_4px_24px_rgba(0,0,0,0.04)]">
               <div className="flex flex-col gap-4 text-[#5A606D] text-[16px] sm:text-[17px] leading-relaxed">
                 <p className="text-[#111318] font-semibold text-[19px] sm:text-[20px] leading-snug">
-                  I am Munazza Irfan, a BS English student currently in my 3rd semester. I have
-                  completed a 6-month IT course covering MS Office, graphic designing, video
-                  editing, internet and web browsing, Windows installation, system basics, and AI
-                  fundamentals.
+                 
+I am Munazza Irfan, a B.A student, with practical skills in video editing, graphic design, and IT operations. I have completed a comprehensive 6-month IT course covering MS Office, creative design, video editing, Windows systems, internet technologies, and AI productivity tools.
+
                 </p>
                 <p>
                   I have practical experience through practice projects, academic assignments, and
