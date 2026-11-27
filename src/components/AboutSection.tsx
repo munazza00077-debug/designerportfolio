@@ -179,7 +179,9 @@ I am Munazza Irfan, a B.A student, with practical skills in video editing, graph
                     Primary Objective
                   </span>
                   <span className="text-[13px] text-[#111318] font-semibold mt-0.5 leading-snug">
-                    Office Assistant • Graphic Designer • IT Support Junior
+                    
+Video Editor • Graphic Designer • Content Creator
+
                   </span>
                 </div>
               </div>
