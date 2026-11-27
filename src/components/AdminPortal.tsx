@@ -1482,7 +1482,7 @@ export const AdminPortal: React.FC<AdminPortalProps> = ({
 );
 })}
 </div>
-
+              </div>
           )}
 
           {/* SCREEN 5: TESTIMONIALS */}
