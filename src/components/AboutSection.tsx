@@ -113,8 +113,9 @@ I have hands-on experience creating promotional videos, social media reels, bran
 
                 </p>
                 <p>
-                  I am eager to apply my skills in a professional working environment, gain
-                  practical experience, and continue developing my technical abilities.
+                 
+My goal is to help businesses and content creators bring their ideas to life through professional video editing, engaging social media content, and creative graphic design. I focus on quality, attention to detail, and client satisfaction.
+
                 </p>
               </div>
 
