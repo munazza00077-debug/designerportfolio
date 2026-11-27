@@ -458,10 +458,10 @@ export const Hero: React.FC<HeroProps> = ({ stats, skills = [], onViewCV }) => {
               <span className="font-mono text-[11px] text-[#FF6900] font-bold">03</span>
             </div>
             <span className="text-[28px] sm:text-[38px] font-extrabold text-[#111318] leading-none">
-              3rd
+             B.A
             </span>
             <span className="text-[11px] sm:text-[13px] text-[#5A606D] mt-1.5 sm:mt-2">
-              Semester BS English Honors
+              Academic Qualification
             </span>
           </div>
 
